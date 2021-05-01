@@ -16,6 +16,7 @@ class _LoadingState extends State<Loading> {
       'location': instance.location,
       'flag': instance.flag,
       'time': instance.time,
+      'isDaytime': instance.isDaytime,
     });
   }
 
@@ -31,7 +32,7 @@ class _LoadingState extends State<Loading> {
       backgroundColor: Colors.grey[850],
       body: Center(
         child: SpinKitCubeGrid(
-          color: Colors.red[300],
+          color: Colors.red[500],
           size: 50.0,
         ),
       ),
